@@ -5,7 +5,12 @@ import (
 	kafka "github.com/segmentio/kafka-go"
 )
 
-// topic and broker addresses
+/*
+topic and broker addresses
+assuming the below brokers are already configured and the topic is created
+if you need more info on how to run these check this blog
+https://www.sohamkamani.com/blog/2017/11/22/how-to-install-and-run-kafka/
+*/
 const (
 	topic   = "my-kafka-topic"
 	broker1 = "localhost:9092"
